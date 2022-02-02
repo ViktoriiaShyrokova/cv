@@ -1,7 +1,14 @@
-<svg width="4" height="222" viewBox="0 0 4 222" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="4" height="222" fill="url(#paint0_linear_13_18)"/>
+<svg width="115" height="140" viewBox="0 0 115 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.604 69.754C36.6119 73.159 35.6089 76.4897 33.722 79.3241C31.8352 82.1586 29.1496 84.3691 26.0052 85.6758C22.8609 86.9825 19.3995 87.3264 16.0596 86.6641C12.7196 86.0017 9.65141 84.3629 7.24371 81.9552C4.83601 79.5475 3.19715 76.4792 2.53479 73.1393C1.87244 69.7993 2.21635 66.3379 3.52301 63.1936C4.82968 60.0493 7.0403 57.3636 9.87472 55.4768C12.7091 53.5899 16.0399 52.587 19.4449 52.5948C23.9958 52.5948 28.3603 54.4026 31.5783 57.6206C34.7962 60.8386 36.604 65.2031 36.604 69.754Z" fill="white"/>
+<path d="M36.604 69.754C36.6119 73.159 35.6089 76.4897 33.722 79.3241C31.8352 82.1586 29.1496 84.3691 26.0052 85.6758C22.8609 86.9825 19.3995 87.3264 16.0596 86.6641C12.7196 86.0017 9.65141 84.3629 7.24371 81.9552C4.83601 79.5475 3.19715 76.4792 2.53479 73.1393C1.87244 69.7993 2.21635 66.3379 3.52301 63.1936C4.82968 60.0493 7.0403 57.3636 9.87472 55.4768C12.7091 53.5899 16.0399 52.587 19.4449 52.5948C23.9958 52.5948 28.3603 54.4026 31.5783 57.6206C34.7962 60.8386 36.604 65.2031 36.604 69.754Z" stroke="url(#paint0_linear_120_2)" stroke-width="3.97204" stroke-miterlimit="10"/>
+<rect width="3.15315" height="140" transform="matrix(-1 0 0 1 114.153 0)" fill="url(#paint1_linear_120_2)"/>
 <defs>
-<linearGradient id="paint0_linear_13_18" x1="2" y1="0" x2="2" y2="222" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_120_2" x1="6767.92" y1="7342.18" x2="7099.86" y2="7342.18" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FAE1D0"/>
+<stop offset="0.5" stop-color="#FFADD7"/>
+<stop offset="1" stop-color="#9BB7FB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_120_2" x1="1.57658" y1="0" x2="1.57658" y2="140" gradientUnits="userSpaceOnUse">
 <stop stop-color="#9CB2FE"/>
 <stop offset="0.5" stop-color="#B8B1F3"/>
 <stop offset="1" stop-color="#C4B6F1"/>

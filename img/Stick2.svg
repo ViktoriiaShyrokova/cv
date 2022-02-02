@@ -1,7 +1,14 @@
-<svg width="4" height="222" viewBox="0 0 4 222" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="4" height="222" fill="url(#paint0_linear_13_19)"/>
+<svg width="114" height="140" viewBox="0 0 114 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.6041 70.1923C36.6041 73.5956 35.5944 76.9224 33.7028 79.7516C31.8112 82.5808 29.1227 84.7852 25.9777 86.0858C22.8327 87.3864 19.3725 87.7247 16.0352 87.0578C12.6979 86.391 9.63337 84.749 7.22964 82.3397C4.82592 79.9304 3.19101 76.8621 2.53188 73.5232C1.87275 70.1844 2.21905 66.725 3.52689 63.583C4.83473 60.441 7.04533 57.7577 9.8789 55.8726C12.7125 53.9875 16.0416 52.9856 19.4449 52.9935C23.9995 53.004 28.3639 54.8206 31.5807 58.0449C34.7976 61.2692 36.6041 65.6378 36.6041 70.1923Z" fill="white"/>
+<path d="M36.6041 70.1923C36.6041 73.5956 35.5944 76.9224 33.7028 79.7516C31.8112 82.5808 29.1227 84.7852 25.9777 86.0858C22.8327 87.3864 19.3725 87.7247 16.0352 87.0578C12.6979 86.391 9.63337 84.749 7.22964 82.3397C4.82592 79.9304 3.19101 76.8621 2.53188 73.5232C1.87275 70.1844 2.21905 66.725 3.52689 63.583C4.83473 60.441 7.04533 57.7577 9.8789 55.8726C12.7125 53.9875 16.0416 52.9856 19.4449 52.9935C23.9995 53.004 28.3639 54.8206 31.5807 58.0449C34.7976 61.2692 36.6041 65.6378 36.6041 70.1923Z" stroke="url(#paint0_linear_121_3)" stroke-width="3.97204" stroke-miterlimit="10"/>
+<rect width="3" height="140" transform="matrix(-1 0 0 1 114 0)" fill="url(#paint1_linear_121_3)"/>
 <defs>
-<linearGradient id="paint0_linear_13_19" x1="2" y1="0" x2="2" y2="222" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_121_3" x1="6767.92" y1="10100.3" x2="7099.86" y2="10100.3" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FAE1D0"/>
+<stop offset="0.5" stop-color="#FFADD7"/>
+<stop offset="1" stop-color="#9BB7FB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_121_3" x1="1.5" y1="0" x2="1.5" y2="140" gradientUnits="userSpaceOnUse">
 <stop stop-color="#DBAFE2"/>
 <stop offset="0.5" stop-color="#F4ADD6"/>
 <stop offset="1" stop-color="#FBB8D3"/>
