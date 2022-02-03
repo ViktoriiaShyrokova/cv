@@ -21,12 +21,14 @@ h1 {
     margin: 120px 19%;
     background-color: #fff;
      box-shadow: 10px 10px 20px 4px #a5a1a182;
+     border-radius: 10px;
 }
 
 header{
     
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -87,14 +89,13 @@ a {
 }
 
 .contacts {
-    /* grid-column: 1/5;
-    grid-row: 2;
-    width: 100%;
-    height: 60px; */
     padding: 20px;
     background: linear-gradient(90deg, #FAE1D0 0%, #FFADD7 50%, #9BB7FB 100%);
     color: #45484C;
-    /* place-items: stretch; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contacts span {
     padding: 10px;
@@ -327,4 +328,112 @@ background-size: 100%;
     font-size: 20px;
     line-height: 20px;
     color: #252E38;
+}
+
+/* =============media======================== */
+
+@media (max-width: 910px) {
+    aside {
+        display: none;
+}
+
+
+
+.menu-toggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  user-select: none;
+}
+
+.menu-toggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+
+.menu-toggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+/* #menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+} */
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+ .menu-toggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+ .menu-toggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+ .menu-toggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+aside {
+  /* position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.menu-toggle input:checked ~ ul
+{
+  transform: none;
 }
