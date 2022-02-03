@@ -154,7 +154,7 @@ a {
 .info {
     display: grid;
     grid-template-columns: 1.1fr 2.6fr;
-    align-items: center;
+    align-items: stretch;
 
 }
 /* ======================MAIN BLOCK======================= */
