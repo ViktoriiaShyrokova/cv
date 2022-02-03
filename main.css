@@ -161,6 +161,7 @@ a {
 main {
     grid-column: 2/3;
     background-color: #EFF4F9;
+    width: 94%;
 }
 
 .summary, 
@@ -246,12 +247,15 @@ aside {
     /* text-align: left; */
     margin: 50px 0 20px 40px;
 }
+.gps p {
+    width: 190px;
+}
 
 .gps p:first-child:before{
     content: "";
     width: 40px;
     height: 40px;
-    margin: 30px 15px 0 7px;
+    margin: 0 15px 0 0;
     
     /* margin-left: -70px; */
     display: inline-block;
@@ -260,10 +264,6 @@ aside {
 /*     background: linear-gradient(180deg, #DBAFE2 0%, #F4ADD6 50%, #FBB8D3 100%); */
 background-repeat: no-repeat;
 background-size: 90%;
-}
-
-.gps p:nth-child(2){
-    padding-left: 60px;
 }
 
 
