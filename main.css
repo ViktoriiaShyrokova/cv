@@ -14,7 +14,7 @@ grid-template-rows:auto;
         ". avatar av-text pages ."; */
 
     background-color: #eff4f9;
-    background-image: url(/img/Background.svg);
+    background-image: url(./img/Background.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
